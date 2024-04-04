@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.main_div{
+  background-color:gray;
+  width: 200vh;
+  height:49vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black; 
+  
+  
+  
+  
+}
+.center_div{
+  background-color:whitesmoke;
+  width: 250px;
+  height:  400px;
+  padding: 60px 60px;
+  text-align: center;
+  border-radius: 5%;
+  border: 1px solid white;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  
+}
+
+.center_div h2{
+  font-size: 45px;
+  margin-top: -55px;
+  color: white;
+  background-color:#8566aa;
+  width: 372px;
+  margin-left: -61px;
+}
+/* .center_div input{ */
+  /* font-size: 20px;
+  margin-top: 55px;
+  float: left;
+  margin-left: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  
+}
+
+.center_div button{
+  float: left;
+  margin-top: 35px;
+  margin-left: 20px;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 29px;
+  
+ 
+  
+  
+} */
+.center_div input,
+.center_div button {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top:50px; 
+  
+  
+}
+
+.center_div input {
+  margin-right: 10px; 
+  padding: 7px;
+  font-size: 15px;
+  border-radius: 5px;
+  border-color: aliceblue;
+ 
+}
+ .center_div button{
+  border-style: none;
+  width: 20px;
+  font-size: 20px;
+  border-radius: 40%;
+  background-color:#8566aa ;
+  color: aliceblue;
+}
+.center_div button :hover{
+  background-color:green;
+}
+
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+
+}
+.todo_style  button{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin: 0 15px 0 10px;
+  color: aliceblue;
+  
+
+}
+.todo_style  button:hover{
+  background-color: red;
+
+}
+.todo_style li{
+  list-style: none;
+  padding: 2px;
+  margin: 5px;
+  font-size: 17px;
+  color: #8566aa ;
+}
+
+
+
+
